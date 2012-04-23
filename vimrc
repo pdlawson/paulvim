@@ -29,3 +29,6 @@ set commentstring=\ #\ %s
 set foldlevel=0
 set clipboard+=unnamed
 syntax on
+
+"shortcuts
+nmap <silent> <F3> :NERDTreeToggle<CR>

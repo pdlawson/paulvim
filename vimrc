@@ -6,11 +6,15 @@ filetype plugin on
 
 "colours and fonts
 set background=dark
-:colo wombat
+:colo desert
 
 "tab completion
 let g:snipMateAllowMatchingDot = 0
 let g:SuperTabDefaultCompletionType = "context"
+
+"tags
+:set tags=~/repository/mytags
+nmap <silent> <F4> :TlistToggle<CR>
 
 "general
 set encoding=utf8
